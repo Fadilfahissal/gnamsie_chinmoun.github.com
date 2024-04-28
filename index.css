@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.img{
+    transition: transform 0.3s ease;
+}
+
+.img:hover{
+ transform: translate(10px, 10px);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; /* Vert forêt */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+    background-color:orange;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: black;
+    padding: 100px 0;
+}
+.img2{
+    transition: transform 0.3s ease;
+}
+
+.img2:hover{
+ transform: translate(10px, 10px);
+}
+
+.hero-text {
+    
+    margin-bottom: 700px;
+    margin-top: 100px; 
+    transform: translateY(-50%);
+    width: 80%;
+    max-width: 600px;
+
+}
+
+.hero-text h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #228B22;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #186918;
+}
+
+.produits {
+    padding: 20px;
+}
+
+.avis {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.compte{
+    text-align: right;
+}
+.btn-connecter, .btn-inscrire {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn-connecter{
+    background-color: forestgreen;
+}
+
+.btn-inscrire{
+    background-color: forestgreen;
+}
+
+.message{
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
